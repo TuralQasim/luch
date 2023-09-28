@@ -55,6 +55,9 @@
 body {
   background-color: #f5f1ee;
 }
+
+/* ----------------------HEADER----------------------- */
+
 .header_bg {
   background-color: #fff;
   width: 100%;
@@ -156,6 +159,9 @@ header label input::placeholder {
   width: 9%;
   height: 100%;
 }
+
+/* ----------------------SUBHEADER----------------------- */
+
 .subheader {
   display: flex;
   justify-content: space-between;
@@ -250,6 +256,9 @@ header label input::placeholder {
   color: #000;
   transition: 0.4s;
 }
+
+/* ----------------------SWIPER----------------------- */
+
 .swiper_container {
   width: 100%;
   height: 684px;
@@ -357,6 +366,9 @@ header label input::placeholder {
   text-align: left;
   color: #fff;
 }
+
+/* ----------------------ADVANTAGES----------------------- */
+
 .advantages {
   display: flex;
   flex-direction: column;
@@ -463,6 +475,8 @@ header label input::placeholder {
   color: #fff;
 }
 
+/* ----------------------CATALOG_EXAMPLES----------------------- */
+
 .catalog_examples {
   margin: 20px 0;
   height: 741px;
@@ -545,6 +559,8 @@ header label input::placeholder {
   font-size: 42px;
 }
 
+/* ----------------------CONTACTS----------------------- */
+
 .contacts {
   display: flex;
   justify-content: space-between;
@@ -613,3 +629,5 @@ header label input::placeholder {
   text-align: left;
   color: #fff;
 }
+
+/* ----------------------FOOTER----------------------- */
