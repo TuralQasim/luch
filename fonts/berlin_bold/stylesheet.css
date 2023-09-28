@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Berlin';
+    src: url('BerlinBold.eot');
+    src: url('BerlinBold.eot?#iefix') format('embedded-opentype'),
+        url('BerlinBold.woff2') format('woff2'),
+        url('BerlinBold.woff') format('woff'),
+        url('BerlinBold.ttf') format('truetype'),
+        url('BerlinBold.svg#BerlinBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('PTRootUI-Bold.eot');
+    src: url('PTRootUI-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PTRootUI-Bold.woff2') format('woff2'),
+        url('PTRootUI-Bold.woff') format('woff'),
+        url('PTRootUI-Bold.ttf') format('truetype'),
+        url('PTRootUI-Bold.svg#PTRootUI-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
