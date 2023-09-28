@@ -631,3 +631,109 @@ header label input::placeholder {
 }
 
 /* ----------------------FOOTER----------------------- */
+
+footer {
+  padding: 30px 50px;
+  background-color: #1d1d1b;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+.foot_logo {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.foot_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32%;
+}
+.foot_1_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.foot_list_left,
+.foot_list_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.foot_2,
+.foot_3 {
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.foot_3 {
+  width: 24%;
+}
+.foot_1_title {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.foot_list_left li a,
+.foot_list_right li a,
+.foot_2 li a,
+.foot_3 li,
+.foot_3 li a {
+  font-family: "PT Root UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  transition: 0.4s;
+}
+.foot_list_left li a:hover,
+.foot_list_right li a:hover,
+.foot_2 li a:hover,
+.foot_3 li a:hover {
+  color: #ff6d00;
+}
+
+/* -----------------COPYRIGHT------------------ */
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin: 10px 0;
+}
+.copyright a,
+.copyright p {
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  transition: 0.4s;
+}
+.copyright a:hover{
+  color: #ff6d00;
+}
