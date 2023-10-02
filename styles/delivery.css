@@ -1,0 +1,42 @@
+.delivery_bg {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #fff;
+}
+.delivery {
+  width: 100%;
+}
+.delivery_img {
+  width: 100%;
+  border-radius: 20px;
+  aspect-ratio: 3.18/1;
+}
+.delivery_hero {
+  width: 66.1%;
+  padding: 70px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.delivery_hero h1 {
+  font-family: "Berlin";
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+  margin-bottom: 20px;
+}
+.delivery_hero p {
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+}

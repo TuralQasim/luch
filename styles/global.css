@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "Berlin";
+  src: url("../fonts/berlin_bold/BerlinBold.eot");
+  src: url("../fonts/berlin_bold/BerlinBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/berlin_bold/BerlinBold.woff2") format("woff2"),
+    url("../fonts/berlin_bold/BerlinBold.woff") format("woff"),
+    url("../fonts/berlin_bold/BerlinBold.ttf") format("truetype"),
+    url("../fonts/berlin_bold/BerlinBold.svg#BerlinBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Root UI";
+  src: url("../fonts/root_bold/PTRootUI-Bold.eot");
+  src: url("../fonts/root_bold/PTRootUI-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/root_bold/PTRootUI-Bold.woff2") format("woff2"),
+    url("../fonts/root_bold/PTRootUI-Bold.woff") format("woff"),
+    url("../fonts/root_bold/PTRootUI-Bold.ttf") format("truetype"),
+    url("../fonts/root_bold/PTRootUI-Bold.svg#PTRootUI-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Root UI";
+  src: url("../fonts/root_regular/PTRootUI-Regular.eot");
+  src: url("../fonts/root_regular/PTRootUI-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/root_regular/PTRootUI-Regular.woff2") format("woff2"),
+    url("../fonts/root_regular/PTRootUI-Regular.woff") format("woff"),
+    url("../fonts/root_regular/PTRootUI-Regular.ttf") format("truetype"),
+    url("../fonts/root_regular/PTRootUI-Regular.svg#PTRootUI-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  width: 1820px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+body {
+  background-color: #f5f1ee;
+}
+
+/* ----------------------HEADER----------------------- */
+
+.header_bg {
+  background-color: #fff;
+  width: 100%;
+  padding: 35px 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+header label {
+  width: 41%;
+  height: 52px;
+  background-color: #f5f1ee;
+  position: relative;
+  border-radius: 6px;
+}
+header label img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 6px;
+}
+header label input {
+  width: 100%;
+  height: 100%;
+  padding: 0 35px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+}
+header label input::placeholder {
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8e8e8d;
+}
+.phone,
+.mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+}
+.phone p,
+.mail p {
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8e8e8d;
+}
+.phone a,
+.mail a {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+  transition: 0.4s;
+}
+.application_btn {
+  display: inline-block;
+  width: 13.35%;
+  height: 52px;
+  background-color: #1d1d1b;
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.4s;
+  border: none;
+  outline: none;
+}
+.application_btn:hover,
+.phone a:hover,
+.mail a:hover {
+  color: #ff6d00;
+}
+.logo {
+  width: 9%;
+  height: 100%;
+}
+
+/* ----------------------SUBHEADER----------------------- */
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+.narbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.narbar li {
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 12px 26px;
+}
+.narbar li a {
+  font-family: "PT Root UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  transition: 0.4s;
+}
+.narbar li a i {
+  font-size: 14px;
+}
+.narbar li a:hover {
+  color: #ff6d00;
+}
+.subheader_btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 6px;
+}
+.subheader_btns li {
+  width: 52px;
+  height: 52px;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subheader_btns li img {
+  width: 55%;
+  height: 55%;
+  object-fit: cover;
+}
+.subheader_btns li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user_icon {
+  padding: 11px 22px;
+  width: max-content;
+  height: 52px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.user_icon:hover p {
+  color: #ff6d00;
+}
+.user_icon a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+}
+.user_icon img {
+  width: 25px;
+  aspect-ratio: 1/1;
+}
+.user_icon p {
+  font-family: PT Root UI;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  transition: 0.4s;
+}
+/* ----------------------FOOTER----------------------- */
+
+footer {
+  padding: 30px 50px;
+  background-color: #1d1d1b;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+.foot_logo {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.foot_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32%;
+}
+.foot_1_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.foot_list_left,
+.foot_list_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.foot_2,
+.foot_3 {
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.foot_3 {
+  width: 24%;
+}
+.foot_1_title {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.foot_list_left li a,
+.foot_list_right li a,
+.foot_2 li a,
+.foot_3 li,
+.foot_3 li a {
+  font-family: "PT Root UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  transition: 0.4s;
+}
+.foot_list_left li a:hover,
+.foot_list_right li a:hover,
+.foot_2 li a:hover,
+.foot_3 li a:hover {
+  color: #ff6d00;
+}
+.footer_bg {
+  width: 100%;
+  background-color: transparent;
+}
+.footer_bg_white {
+  background-color: #fff;
+}
+.footer_bg_white footer {
+  margin-top: 0;
+}
