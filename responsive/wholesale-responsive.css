@@ -1,0 +1,198 @@
+@media screen and (max-width: 1366px) {
+  .wholesale_top {
+    width: 68.5%;
+    margin: 0 auto 40px;
+  }
+  .wholesale_top h1 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .wholesale_top p {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .wholesale_bottom {
+    height: 330px;
+  }
+  .wholesale_bottom > img {
+    width: 24.15%;
+  }
+  .request {
+    width: 75%;
+    padding: 50px 30px;
+  }
+  .request h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .request p {
+    font-size: 18px;
+    line-height: 22.68px;
+  }
+  .request > label {
+    gap: 10px;
+    height: 52px;
+  }
+  .request > label input {
+    width: calc((100% - 20px) / 3);
+    padding-left: 15px;
+  }
+  .request > label input::placeholder {
+    font-size: 16px;
+    line-height: 21.86px;
+  }
+  .request_bottom button {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+  .wholesale_top {
+    width: 81%;
+    margin: 0 auto 30px;
+  }
+  .wholesale_top h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .wholesale_top p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .wholesale_bottom {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .wholesale_bottom > img {
+    width: 100%;
+    aspect-ratio: 3.12/1;
+    object-fit: cover;
+  }
+  .request {
+    width: 100%;
+    padding: 50px 30px;
+  }
+  .request h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .request p {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .request > label {
+    gap: 10px;
+    height: 42px;
+  }
+  .request > label input {
+    width: calc((100% - 20px) / 3);
+    padding-left: 10px;
+  }
+  .request > label input::placeholder {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .request_bottom button {
+    font-size: 16px;
+    line-height: 19.2px;
+    padding: 14px 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .request_bottom label {
+    width: 57%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wholesale_top {
+    width: 100%;
+    margin: 0 auto 20px;
+  }
+  .wholesale_top h1 {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+  .wholesale_top p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .wholesale_bottom > img {
+    width: 100%;
+    aspect-ratio: 2.5/1;
+    object-fit: cover;
+  }
+  .request {
+    width: 100%;
+    padding: 30px 10px;
+  }
+  .request h2 {
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+  }
+  .request p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .request > label {
+    gap: 5px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .request > label input {
+    width: 100%;
+    padding-left: 10px;
+    height: 38px;
+  }
+  .request > label input::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .request_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .request_bottom button {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 14px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .request_bottom label {
+    width: 100%;
+  }
+  .request_bottom > label p {
+    text-align: left !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .wholesale_bottom > img {
+    width: 100%;
+    aspect-ratio: 1.5/1;
+    object-fit: cover;
+  }
+}
