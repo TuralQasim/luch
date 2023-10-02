@@ -1,0 +1,20 @@
+.wholesale_bg {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #fff;
+}
+.wholesale {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wholesale_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 66.1%;
+  margin-bottom: 50px;
+}
