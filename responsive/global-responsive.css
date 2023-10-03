@@ -1,0 +1,46 @@
+@media screen and (max-width: 1366px) {
+  .sitebar a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .sitebar h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .sitebar span {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+  .sitebar a {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .sitebar h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .sitebar span {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 320px) {
+  .sitebar a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .sitebar h5 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .sitebar span {
+    width: 8px;
+    height: 8px;
+  }
+}

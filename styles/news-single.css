@@ -1,0 +1,74 @@
+.news_single_bg {
+  background-color: #fff;
+  width: 100%;
+  padding: 50px 0;
+}
+.news_single {
+  width: 66.15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.news_single h1 {
+  font-family: "Berlin";
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d1d1b;
+  margin-bottom: 60px;
+}
+.news_single img {
+  width: 100%;
+  border-radius: 25px;
+  aspect-ratio: 2.34/1;
+}
+.news_single_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 10px;
+}
+.news_single_text h2 {
+  font-family: "Berlin";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1d1d1b;
+}
+.news_single_text h6 {
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+.news_single_text p {
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+}
+.news_single_text p:first-of-type {
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+  margin: 10px 0;
+}

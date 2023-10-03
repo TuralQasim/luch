@@ -1,0 +1,111 @@
+@media screen and (max-width: 1366px) {
+  .news_single h1 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 50px;
+  }
+  .news_single img {
+    aspect-ratio: 2.25/1;
+  }
+  .news_single {
+    width: 70%;
+  }
+  .news_single_text h2 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .news_single_text h6 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .news_single_text p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .news_single_text p:first-of-type {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .news_single h1 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .news_single img {
+    aspect-ratio: 2/1;
+  }
+  .news_single {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .news_single h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+  }
+  .news_single img {
+    aspect-ratio: 1.45/1;
+  }
+  .news_single {
+    width: 86.45%;
+  }
+  .news_single_text h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .news_single_text h6 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .news_single_text p {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .news_single_text p:first-of-type {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .news_single h1 {
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 30px;
+  }
+  .news_single img {
+    aspect-ratio: 1.25/1;
+  }
+  .news_single {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .news_single h1 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .news_single img {
+    aspect-ratio: 1.15/1;
+  }
+  .news_single {
+    width: 100%;
+  }
+  .news_single_text h2 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .news_single_text h6 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .news_single_text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
