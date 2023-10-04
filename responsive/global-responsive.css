@@ -100,6 +100,10 @@
     font-size: 18px;
     line-height: 21.6px;
   }
+  .foot_logo img{
+    width: 100%;
+    aspect-ratio: 1.8/1;
+  }
 }
 @media screen and (max-width: 1024px) {
   footer {
@@ -107,6 +111,9 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+  }
+  footer {
+    padding: 20px 50px 30px;
   }
   .foot_logo {
     width: 24%;
@@ -556,6 +563,11 @@
   }
   .header_bg {
     padding: 20px 0;
+  }
+  .foot_logo img{
+    width: 80%;
+    aspect-ratio: 3/1;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 320px) {
