@@ -373,28 +373,3 @@
 }
 
 
-/* -----------------COPYRIGHT------------------ */
-
-.copyright {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px 50px;
-  background-color: #fff;
-  border-radius: 25px;
-  margin: 10px 0;
-}
-.copyright a,
-.copyright p {
-  font-family: "PT Root UI";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #000;
-  transition: 0.4s;
-}
-.copyright a:hover{
-  color: #ff6d00;
-}

@@ -11,8 +11,301 @@
     width: 10px;
     height: 10px;
   }
+  .foot_logo {
+    width: 14%;
+  }
+  .foot_1 {
+    width: 42%;
+  }
+  .foot_2 {
+    width: 18.5%;
+    gap: 10px;
+  }
+  .foot_3 {
+    width: 20.33%;
+    gap: 10px;
+  }
+  .foot_list_left,
+  .foot_list_right {
+    gap: 10px;
+  }
+  .foot_1_title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .foot_list_left li a,
+  .foot_list_right li a,
+  .foot_2 li a,
+  .foot_3 li,
+  .foot_3 li a {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .copyright {
+    padding: 20px 40px;
+  }
+  .copyright a,
+  .copyright p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  header label {
+    width: 35%;
+    height: 44px;
+  }
+  .phone p,
+  .mail p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .phone a,
+  .mail a {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .application_btn {
+    width: 16%;
+    height: 52px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .narbar {
+    gap: 3px;
+  }
+  .narbar li {
+    padding: 12px 12px;
+  }
+  .narbar li a {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+  .narbar li a i {
+    font-size: 12px;
+  }
+  .subheader_btns {
+    gap: 3px;
+  }
+  .subheader_btns li {
+    width: 46px;
+    height: 46px;
+  }
+  .user_icon {
+    padding: 11px 10px;
+    height: 46px;
+  }
+  .user_icon p {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
 }
 @media screen and (max-width: 1024px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .foot_logo {
+    width: 24%;
+  }
+  .foot_1 {
+    width: 74%;
+    margin-bottom: 30px;
+  }
+  .foot_2 {
+    width: 37%;
+    gap: 10px;
+    margin-left: auto;
+  }
+  .foot_3 {
+    width: 37%;
+    gap: 10px;
+  }
+  .foot_list_left,
+  .foot_list_right {
+    width: calc((100% - 10px) / 2);
+  }
+  header {
+    flex-wrap: wrap;
+  }
+  header label {
+    width: 100%;
+    height: 44px;
+    order: 1;
+    margin-top: 20px;
+  }
+  .phone,
+  .mail {
+    display: none;
+  }
+  .application_btn {
+    width: 30.48%;
+    height: 49px;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .mobile_basket {
+    display: block;
+    transform: scale(1.4);
+  }
+  .subheader {
+    display: none;
+  }
+  .burger_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 30px 80px;
+    z-index: 99999;
+    display: block;
+    overflow: auto;
+    transform: translateY(-100%);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .burger_menu_hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+  }
+  #closeBtn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 48px;
+    color: #8e8e8d;
+  }
+  .burger_menu_hero > li {
+    width: 100%;
+    height: 50px !important;
+    border-radius: 6px;
+    background-color: #f5f1ee;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 0;
+    padding: 0 40px;
+  }
+  .burger_menu_hero > li a {
+    font-family: "PT Root UI";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+  }
+  .burger_menu_hero > li a i {
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 2px;
+  }
+  .burger_menu .user_icon {
+    width: 100%;
+    border-radius: 6px;
+    background-color: #f5f1ee;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .burger_menu .user_icon a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .burger_menu .user_icon a p {
+    font-family: "PT Root UI";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+  }
+  .burger_bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .burger_menu_hero ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    height: 50px;
+  }
+  .burger_menu_hero ul li {
+    background-color: #f5f1ee;
+    border-radius: 6px;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger_menu ul li img {
+    width: 80%;
+    height: 80%;
+  }
+  .resp_contacts {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .resp_contacts_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .resp_contacts_item p {
+    font-family: "PT Root UI";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8e8e8d;
+  }
+  .resp_contacts_item a {
+    font-family: "PT Root UI";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1d1d1b;
+  }
+  .logo {
+    width: 140px;
+    height: 100%;
+  }
+  #burgerBtn {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    color: #8e8e8d;
+    cursor: pointer;
+    transform: translateY(7px);
+  }
 }
 @media screen and (max-width: 768px) {
   .sitebar a {
@@ -27,8 +320,243 @@
     width: 10px;
     height: 10px;
   }
+  .foot_list_left,
+  .foot_list_right {
+    gap: 10px;
+  }
+  .foot_1_title {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+
+    margin-bottom: 20px;
+  }
+  .foot_list_left li a,
+  .foot_list_right li a,
+  .foot_2 li a,
+  .foot_3 li,
+  .foot_3 li a {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  footer {
+    padding: 20px 10px;
+  }
+  .foot_logo {
+    width: 30%;
+  }
+  .foot_1 {
+    width: 68%;
+    margin-bottom: 30px;
+  }
+  .foot_2 {
+    width: 34%;
+    gap: 10px;
+    margin-left: auto;
+  }
+  .foot_3 {
+    width: 34%;
+    gap: 10px;
+  }
+  .copyright {
+    padding: 15px 0;
+  }
+  .copyright a,
+  .copyright p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .burger_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 40px 40px;
+    z-index: 99999;
+    display: block;
+    overflow: auto;
+  }
+  .burger_menu_hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+  }
+  #closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10x;
+    font-size: 36px;
+    color: #8e8e8d;
+  }
+  .burger_menu_hero > li {
+    width: 100%;
+    height: 50px !important;
+    border-radius: 6px;
+    background-color: #f5f1ee;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 0;
+    padding: 0 40px;
+  }
+  .burger_menu_hero > li a {
+    font-size: 18px;
+    line-height: 50px;
+  }
+  .burger_menu .user_icon {
+    width: 100%;
+    border-radius: 6px;
+    background-color: #f5f1ee;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .burger_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  .resp_contacts_item p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .resp_contacts_item a {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .logo {
+    width: 21%;
+    height: 44px;
+  }
+  #burgerBtn {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    color: #8e8e8d;
+    cursor: pointer;
+    transform: translateY(2px);
+  }
 }
 @media screen and (max-width: 480px) {
+  .foot_1_title {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .foot_list_left li a,
+  .foot_list_right li a,
+  .foot_2 li a,
+  .foot_3 li,
+  .foot_3 li a {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  footer {
+    padding: 20px 10px;
+  }
+  .foot_logo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .foot_1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .foot_2 {
+    width: calc((100% - 15px) / 2);
+    gap: 10px;
+    margin-left: 0;
+  }
+  .foot_3 {
+    width: calc((100% - 15px) / 2);
+    gap: 10px;
+  }
+  .copyright {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .copyright a,
+  .copyright p {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .burger_menu {
+    padding: 50px 20px 40px;
+  }
+  #closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 36px;
+    color: #8e8e8d;
+  }
+  .burger_menu_hero > li {
+    padding: 0 20px;
+  }
+  .burger_menu_hero > li a {
+    font-size: 18px;
+    line-height: 50px;
+  }
+  .burger_menu .user_icon a {
+    padding: 0;
+  }
+  .burger_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  .resp_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .resp_contacts_item p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .resp_contacts_item a {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .logo {
+    width: 26%;
+    height: 44px;
+  }
+  #burgerBtn {
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    color: #8e8e8d;
+    cursor: pointer;
+    transform: translateY(2px);
+  }
+  .mobile_basket {
+    display: none;
+  }
+  .application_btn {
+    width: 40%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .header_bg {
+    padding: 20px 0;
+  }
 }
 @media screen and (max-width: 320px) {
   .sitebar a {
@@ -42,5 +570,44 @@
   .sitebar span {
     width: 8px;
     height: 8px;
+  }
+  .foot_logo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .foot_1 {
+    width: 100%;
+    margin-bottom: 30px;
+    display: none;
+  }
+  .foot_2 {
+    width: 100%;
+    gap: 10px;
+    margin-left: 0;
+  }
+  .foot_3 {
+    width: 100%;
+    gap: 10px;
+  }
+  footer {
+    padding: 20px;
+  }
+  .copyright a,
+  .copyright p {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .logo {
+    width: 30%;
+  }
+  .mobile_basket {
+    display: block;
+    margin-right: 10px;
+  }
+  .application_btn {
+    display: none;
+  }
+  .header_bg {
+    padding: 15px 0;
   }
 }

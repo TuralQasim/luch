@@ -75,6 +75,7 @@ header label {
   background-color: #f5f1ee;
   position: relative;
   border-radius: 6px;
+  transform: translateY(5px);
 }
 header label img {
   position: absolute;
@@ -159,7 +160,12 @@ header label input::placeholder {
   width: 9%;
   height: 100%;
 }
-
+.mobile_basket, .burger_menu {
+  display: none;
+}
+#burgerBtn {
+  display: none;
+}
 /* ----------------------SUBHEADER----------------------- */
 
 .subheader {
@@ -279,7 +285,7 @@ footer {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 32%;
+  width: 34%;
 }
 .foot_1_list {
   display: flex;
@@ -347,6 +353,39 @@ footer {
 .footer_bg_white footer {
   margin-top: 0;
 }
+.burger_menu_visible{
+  transform: translateY(0) !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  transition: 0.5s !important;
+}
+/* -----------------COPYRIGHT------------------ */
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin: 10px 0;
+}
+.copyright a,
+.copyright p {
+  font-family: "PT Root UI";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  transition: 0.4s;
+}
+.copyright a:hover {
+  color: #ff6d00;
+}
+
+/* -----------------SITEBAR------------------ */
 
 .sitebar {
   display: flex;
@@ -365,7 +404,7 @@ footer {
   color: #8e8e8d;
   transition: 0.4s;
 }
-.sitebar a:hover{
+.sitebar a:hover {
   color: #ff6d00;
 }
 .sitebar h5 {
@@ -377,7 +416,7 @@ footer {
   text-align: left;
   color: #000;
 }
-.sitebar span{
+.sitebar span {
   width: 10px;
   height: 10px;
   border-radius: 50%;

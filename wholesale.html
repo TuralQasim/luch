@@ -18,10 +18,52 @@
     <link rel="stylesheet" href="./responsive/global-responsive.css" />
   </head>
   <body>
+    <div class="burger_menu">
+      <ul class="burger_menu_hero">
+        <i class="fa-solid fa-xmark" id="closeBtn"></i>
+        <li>
+          <a href="#">Каталог <i class="fa-solid fa-plus"></i></a>
+        </li>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Контакты</a></li>
+        <div class="user_icon">
+          <a href="#">
+            <img src="icons/user.svg" alt="" />
+            <p>Личный кабинет</p></a
+          >
+        </div>
+        <div class="burger_bottom">
+          <ul>
+            <li class="basket_icon">
+              <a href="#"><img src="icons/basket.svg" alt="" /></a>
+            </li>
+            <li class="fav_icon">
+              <a href="#"><img src="icons/fav.svg" alt="" /></a>
+            </li>
+            <li class="arrows_icon">
+              <a href="#"><img src="icons/arrows.svg" alt="" /></a>
+            </li>
+          </ul>
+          <div class="resp_contacts">
+            <div class="resp_contacts_item">
+              <p>Контактный телефон</p>
+              <a href="#">+7 (900) 000-00-00</a>
+            </div>
+            <div class="resp_contacts_item">
+              <p>Электронная почта</p>
+              <a href="#">info@example.ru</a>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
     <div class="header_bg">
       <div class="container">
         <header>
-          <img src="" alt="" class="logo" />
+          <i class="fa-solid fa-bars" id="burgerBtn"></i>
+          <img src="./icons/logo_header.svg" alt="" class="logo" />
           <label for="" class="search">
             <input type="text" placeholder="Поиск по каталогу" />
             <img src="icons/search.svg" alt="" />
@@ -35,6 +77,7 @@
             <a href="#">info@example.ru</a>
           </div>
           <button class="application_btn">Оставить заявку</button>
+          <img src="./icons/basket.svg" alt="" class="mobile_basket" />
         </header>
       </div>
     </div>
@@ -189,5 +232,6 @@
         </div>
       </div>
     </div>
+    <script src="js/burger.js"></script>
   </body>
 </html>
