@@ -1,0 +1,314 @@
+.catalog_card_bg {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0;
+}
+.catalog_card {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.catalog_left {
+  width: 49% !important;
+  overflow: hidden !important;
+}
+.swiper {
+  width: 100%;
+}
+.swiper-wrapper {
+  width: 100%;
+}
+.swiper {
+  width: 100%;
+  height: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.mySwiper2 {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.mySwiper {
+  height: 150px;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+.mySwiper .swiper-slide {
+  height: 100px !important;
+  aspect-ratio: 1/1 !important;
+  opacity: 0.4;
+}
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide-active {
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin-bottom: 20px;
+}
+.next_btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 99;
+  opacity: 0.5;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.next_btn i {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 9999;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #000;
+  background-color: #ffffff80;
+  padding: 5px 5px 5px 20px;
+  cursor: pointer;
+}
+.prev_btn {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 99;
+  opacity: 0.5;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.prev_btn i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 9999;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #000;
+  background-color: #ffffff80;
+  padding: 5px 5px 5px 20px;
+  cursor: pointer;
+}
+.catalog_right {
+  width: 49% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+.curtom_btns {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+}
+.curtom_btns i {
+  font-size: 24px;
+}
+.catalog_title {
+  font-family: "Berlin";
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+  max-width: 80%;
+}
+.catalog_right h6 {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8e8e8d;
+}
+.catalog_items {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 30px 0 20px;
+}
+.catalog_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.catalog_item p {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8e8e8d;
+}
+.catalog_item h5 {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+}
+.option {
+  width: 66%;
+  height: max-content;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.option_hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  height: 55px;
+  padding: 0 20px;
+}
+.option_value {
+  visibility: hidden;
+  opacity: 0;
+  transition: inherit;
+  transform: translateY(-100%);
+  background-color: #e7e7e7;
+  padding: 0 20px 20px;
+}
+.option_value_visible {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+.option_hero p {
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #969696;
+  pointer-events: none;
+}
+.option_hero i {
+  pointer-events: none;
+  color: #1d1d1b;
+}
+.price {
+  font-family: "Berlin";
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+}
+.catalog_btns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.catalog_btns button {
+  display: inline-block;
+  width: calc((100% - 20px) / 2);
+  height: 52px;
+  border-radius: 10px;
+  border: 1px solid #ff6d00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.catalog_btns button:first-of-type {
+  background-color: #ff6d00;
+  color: #fff;
+}
+.catalog_btns button:first-of-type:hover {
+  background-color: #fff;
+  color: #ff6d00;
+}
+.catalog_btns button:last-of-type {
+  background-color: #fff;
+  color: #ff6d00;
+}
+.catalog_btns button:last-of-type:hover {
+  background-color: #ff6d00;
+  color: #fff;
+}
+.catalog_info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 40px;
+}
+.catalog_info_btns {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  align-items: center;
+}
+.catalog_info_btns button {
+  border: 1px solid #ff6d00;
+  color: #ff6d00;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 14px 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.catalog_info_btns button:hover {
+  background-color: #ff6d00;
+  color: #fff;
+}
+.catalog_info p {
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+}
+.other_products_title {
+  font-family: "Berlin";
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d1d1b;
+  margin: 50px 0 30px;
+}
+.other_products {
+  padding-bottom: 70px;
+}

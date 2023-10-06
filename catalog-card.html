@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luch</title>
+    <link rel="stylesheet" href="./styles/catalog-card.css" />
+    <link rel="stylesheet" href="./responsive/catalog-card-responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="fonts/berlin_bold/stylesheet.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="./responsive/global-responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="burger_menu">
+      <ul class="burger_menu_hero">
+        <i class="fa-solid fa-xmark" id="closeBtn"></i>
+        <li>
+          <a href="#">Каталог <i class="fa-solid fa-plus"></i></a>
+        </li>
+        <li><a href="delivery.html">Доставка и оплата</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <div class="user_icon">
+          <a href="#">
+            <img src="icons/user.svg" alt="" />
+            <p>Личный кабинет</p></a
+          >
+        </div>
+        <div class="burger_bottom">
+          <ul>
+            <li class="basket_icon">
+              <a href="#"><img src="icons/basket.svg" alt="" /></a>
+            </li>
+            <li class="fav_icon">
+              <a href="#"><img src="icons/fav.svg" alt="" /></a>
+            </li>
+            <li class="arrows_icon">
+              <a href="#"><img src="icons/arrows.svg" alt="" /></a>
+            </li>
+          </ul>
+          <div class="resp_contacts">
+            <div class="resp_contacts_item">
+              <p>Контактный телефон</p>
+              <a href="tel:79000000000">+7 (900) 000-00-00</a>
+            </div>
+            <div class="resp_contacts_item">
+              <p>Электронная почта</p>
+              <a href="mailto:info@example.ru">info@example.ru</a>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div class="header_bg">
+      <div class="container">
+        <header>
+          <i class="fa-solid fa-bars" id="burgerBtn"></i>
+          <img src="./icons/logo_header.svg" alt="" class="logo" />
+          <label for="" class="search">
+            <input type="text" placeholder="Поиск по каталогу" />
+            <img src="icons/search.svg" alt="" />
+          </label>
+          <div class="phone">
+            <p>Контактный телефон</p>
+            <a href="tel:79000000000">+7 (900) 000-00-00</a>
+          </div>
+          <div class="mail">
+            <p>Электронная почта</p>
+            <a href="mailto:info@example.ru">info@example.ru</a>
+          </div>
+          <button class="application_btn">Оставить заявку</button>
+          <img src="./icons/basket.svg" alt="" class="mobile_basket" />
+        </header>
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <div class="subheader">
+          <ul class="narbar">
+            <li>
+              <a href="#">Каталог <i class="fa-solid fa-plus"></i></a>
+            </li>
+            <li><a href="delivery.html">Доставка и оплата</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+          <ul class="subheader_btns">
+            <li class="basket_icon">
+              <a href="#"><img src="icons/basket.svg" alt="" /></a>
+            </li>
+            <li class="fav_icon">
+              <a href="#"><img src="icons/fav.svg" alt="" /></a>
+            </li>
+            <li class="arrows_icon">
+              <a href="#"><img src="icons/arrows.svg" alt="" /></a>
+            </li>
+            <div class="user_icon">
+              <a href="#">
+                <img src="icons/user.svg" alt="" />
+                <p>Личный кабинет</p></a
+              >
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="catalog_card_bg">
+        <div class="container">
+          <div class="sitebar">
+            <a href="index.html">Главная</a>
+            <span></span>
+            <a href="index.html">Каталог</a>
+            <span></span>
+            <h5>ЛЮСТРА REGENBOGEN</h5>
+          </div>
+          <div class="catalog_card">
+            <div class="catalog_left">
+              <div
+                style="
+                  --swiper-navigation-color: #fff;
+                  --swiper-pagination-color: #fff;
+                "
+                class="swiper mySwiper2"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                </div>
+                <div class="prev_btn">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="next_btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product3.png" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/product4.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="catalog_right">
+              <div class="curtom_btns">
+                <img src="./icons/arrows.svg" alt="" />
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <h2 class="catalog_title">ЛЮСТРА REGENBOGEN</h2>
+              <h6>Артикул: 909090</h6>
+              <div class="catalog_items">
+                <div class="catalog_item">
+                  <p>Размер:</p>
+                  <h5>448x700x660</h5>
+                </div>
+                <div class="catalog_item">
+                  <p>Цвет:</p>
+                  <h5>Белый</h5>
+                </div>
+                <div class="catalog_item">
+                  <p>Материал:</p>
+                  <h5>Стекло</h5>
+                </div>
+              </div>
+              <div class="option">
+                <div class="option_hero">
+                  <p>Опция 1</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="option_value">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Velit obcaecati natus reprehenderit nobis excepturi cum
+                    quibusdam animi? Ipsum, nemo dolore.
+                  </p>
+                </div>
+              </div>
+              <h2 class="price">45 000 ₽</h2>
+              <div class="catalog_btns">
+                <button>В корзину</button>
+                <button>Заказать в один клик</button>
+              </div>
+            </div>
+          </div>
+          <div class="catalog_info">
+            <div class="catalog_info_btns">
+              <button>Описание</button>
+              <button>Все характеристики</button>
+              <button>Отзывы</button>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Semper aenean adipiscing
+              lacus sed lectus nisl. Lobortis in morbi congue nec aenean
+              tristique pulvinar ultricies purus. Nulla ultricies eros
+              scelerisque viverra. Ut porta orci etiam ut adipiscing risus justo
+              id id. Lectus arcu accumsan bibendum et. Eget nullam cras est
+              velit purus. Nibh ornare quam in sit sagittis bibendum. Volutpat
+              amet consequat cursus integer mi amet lectus adipiscing aliquet.
+            </p>
+            <p>
+              Amet cursus neque quam tortor morbi consequat. Tincidunt neque
+              habitasse quisque enim justo. Vitae nam nulla gravida cras ante
+              lorem malesuada. Dui proin dignissim ultrices lectus at donec
+              aliquet. Dui donec sapien sed augue ac posuere augue enim. Nulla
+              diam tortor eget tristique. Tincidunt ac pulvinar malesuada
+              viverra leo augue orci. Ullamcorper nunc lorem sit venenatis neque
+              vulputate amet malesuada nunc. Sit morbi ut nisl volutpat in.
+              Blandit scelerisque id diam sed.
+            </p>
+            <p>
+              Nibh et at nunc quis est enim tellus. Mattis netus eget tellus
+              elit. Pellentesque feugiat ac diam morbi mus aliquam amet rhoncus.
+              Sed pellentesque enim parturient lectus porta malesuada. Diam
+              fames diam lorem eu vitae vulputate. Imperdiet lorem volutpat et
+              vel venenatis id sit sed. Et purus cras dignissim ac cras.
+              Dictumst vivamus amet malesuada nunc cras fames blandit in nunc.
+              Velit non sed nunc scelerisque viverra elit in justo. Ullamcorper
+              lectus blandit aenean purus. Ultricies at suspendisse est
+              pellentesque sed.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="other_products_bg">
+        <div class="container">
+          <div class="other_products">
+            <h2 class="other_products_title">Похожие товары</h2>
+            <div class="product_container">
+              <div class="product_item">
+                <div class="product_img">
+                  <img src="./images/product1.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_img">
+                  <img src="./images/product2.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_img">
+                  <img src="./images/product3.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Arte Lamp Furore</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_img">
+                  <img src="./images/product4.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Maytoni Chester</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+            </div>
+            <h2 class="other_products_title">Недавно просмотренные</h2>
+            <div class="product_container">
+              <div class="product_item">
+                <div class="product_img">
+                  <img src="./images/product1.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_img">
+                  <img src="./images/product2.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="footer_bg footer_bg_white">
+      <div class="container">
+        <footer>
+          <div class="foot_logo">
+            <img src="./icons/logo_footer.svg" alt="" />
+          </div>
+          <div class="foot_1">
+            <h2 class="foot_1_title">Продукция</h2>
+            <ul class="foot_1_list">
+              <ul class="foot_list_left">
+                <li><a href="#">Люстры</a></li>
+                <li><a href="#">Светильники</a></li>
+                <li><a href="#">Бра и подсветки</a></li>
+                <li><a href="#">Торшеры</a></li>
+                <li><a href="#">Настольные лампы</a></li>
+                <li><a href="#">Споты</a></li>
+                <li><a href="#">Уличное освещение</a></li>
+                <li><a href="#">Лампы</a></li>
+              </ul>
+              <ul class="foot_list_right">
+                <li><a href="#">Электротовары</a></li>
+                <li><a href="#">Новогодние товары</a></li>
+                <li><a href="#">Прочее</a></li>
+                <li><a href="#">Распродажа</a></li>
+                <li><a href="#">Комплектующие</a></li>
+                <li><a href="#">Светодиодные ленты</a></li>
+                <li><a href="#">Трековые системы</a></li>
+                <li><a href="#">Товары оптом</a></li>
+              </ul>
+            </ul>
+          </div>
+          <ul class="foot_2">
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <ul class="foot_3">
+            <li>Контактные данные</li>
+            <li>г. Город, ул. Улица, д. Дом ХХ</li>
+            <li><a href="#">+7 (900) 000-00-00</a></li>
+            <li><a href="#">info@example.ru</a></li>
+          </ul>
+        </footer>
+        <div class="copyright">
+          <a href="#">Политика конфиденциальности</a>
+          <p>Разработка сайта — Edison Studio</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/burger.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        slidesPerView: 6,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".next_btn",
+          prevEl: ".prev_btn",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
+    <script src="./js/catalog-card.js"></script>
+  </body>
+</html>
