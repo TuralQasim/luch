@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luch</title>
+    <link rel="stylesheet" href="./styles/account.css" />
+    <link rel="stylesheet" href="./responsive/account-responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="fonts/berlin_bold/stylesheet.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="./responsive/global-responsive.css" />
+  </head>
+  <body>
+    <div class="burger_menu">
+      <ul class="burger_menu_hero">
+        <i class="fa-solid fa-xmark" id="closeBtn"></i>
+        <li>
+          <a href="#">Каталог <i class="fa-solid fa-plus"></i></a>
+        </li>
+        <li><a href="delivery.html">Доставка и оплата</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <div class="user_icon">
+          <a href="#">
+            <img src="icons/user.svg" alt="" />
+            <p>Личный кабинет</p></a
+          >
+        </div>
+        <div class="burger_bottom">
+          <ul>
+            <li class="basket_icon">
+              <a href="#"><img src="icons/basket.svg" alt="" /></a>
+            </li>
+            <li class="fav_icon">
+              <a href="#"><img src="icons/fav.svg" alt="" /></a>
+            </li>
+            <li class="arrows_icon">
+              <a href="#"><img src="icons/arrows.svg" alt="" /></a>
+            </li>
+          </ul>
+          <div class="resp_contacts">
+            <div class="resp_contacts_item">
+              <p>Контактный телефон</p>
+              <a href="tel:79000000000">+7 (900) 000-00-00</a>
+            </div>
+            <div class="resp_contacts_item">
+              <p>Электронная почта</p>
+              <a href="mailto:info@example.ru">info@example.ru</a>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div class="header_bg">
+      <div class="container">
+        <header>
+          <i class="fa-solid fa-bars" id="burgerBtn"></i>
+          <img src="./icons/logo_header.svg" alt="" class="logo" />
+          <label for="" class="search">
+            <input type="text" placeholder="Поиск по каталогу" />
+            <img src="icons/search.svg" alt="" />
+          </label>
+          <div class="phone">
+            <p>Контактный телефон</p>
+            <a href="tel:79000000000">+7 (900) 000-00-00</a>
+          </div>
+          <div class="mail">
+            <p>Электронная почта</p>
+            <a href="mailto:info@example.ru">info@example.ru</a>
+          </div>
+          <button class="application_btn">Оставить заявку</button>
+          <img src="./icons/basket.svg" alt="" class="mobile_basket" />
+        </header>
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <div class="subheader">
+          <ul class="narbar">
+            <li>
+              <a href="#">Каталог <i class="fa-solid fa-plus"></i></a>
+            </li>
+            <li><a href="delivery.html">Доставка и оплата</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+          <ul class="subheader_btns">
+            <li class="basket_icon">
+              <a href="#"><img src="icons/basket.svg" alt="" /></a>
+            </li>
+            <li class="fav_icon">
+              <a href="#"><img src="icons/fav.svg" alt="" /></a>
+            </li>
+            <li class="arrows_icon">
+              <a href="#"><img src="icons/arrows.svg" alt="" /></a>
+            </li>
+            <div class="user_icon">
+              <a href="#">
+                <img src="icons/user.svg" alt="" />
+                <p>Личный кабинет</p></a
+              >
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="account_bg">
+        <div class="container">
+          <div class="sitebar">
+            <a href="index.html">Главная</a>
+            <span></span>
+            <h5>Личный кабинет</h5>
+          </div>
+          <div class="account">
+            <div class="account_pagination">
+              <button class="profile_btn active_pagination">Мой профиль</button>
+              <button class="orders_btn">Мои заказы</button>
+            </div>
+            <form class="account_info active_info">
+              <h2 class="account_title">Личные данные</h2>
+              <label for="" class="standart_item">
+                <p class="standart_value">Иван</p>
+                <input type="text" class="standart_input dnone" />
+                <i class="fa-solid fa-pen"></i>
+              </label>
+              <label for="" class="standart_item">
+                <p class="standart_value">Иванов</p>
+                <input type="text" class="standart_input dnone" />
+                <i class="fa-solid fa-pen"></i>
+              </label>
+              <label for="" class="standart_item">
+                <p class="standart_value">+7 999 99 99 99</p>
+                <input type="number" class="standart_input dnone" />
+                <i class="fa-solid fa-pen"></i>
+              </label>
+              <label for="" class="standart_item">
+                <p class="standart_value">example@mail.ru</p>
+                <input type="email" class="standart_input dnone" />
+                <i class="fa-solid fa-pen"></i>
+              </label>
+              <h2 class="account_title">Сменить пароль</h2>
+              <label for="" class="standart_item_pass">
+                <p class="standart_value">Новый пароль</p>
+                <input
+                  type="password"
+                  class="standart_input dnone"
+                  id="pass1"
+                />
+                <i class="fa-solid fa-pen"></i>
+              </label>
+              <label for="" class="standart_item_pass">
+                <p class="standart_value">Повторить пароль</p>
+                <input
+                  type="password"
+                  class="standart_input dnone"
+                  id="pass2"
+                />
+                <i class="fa-solid fa-pen"></i>
+              </label>
+              <div class="standart_btns">
+                <button>Отмена</button>
+                <button class="save_btn">Cохранить изменения</button>
+              </div>
+              <button class="exit_btn">Выйти</button>
+            </form>
+            <div class="order_info">
+              <h2 class="order_title">Заказ №1</h2>
+              <p class="order_subtitle">Информация о заказе</p>
+              <div class="order_item">
+                <div class="order_name">
+                  <p>Наименование</p>
+                  <h4>Торшер KINK Light Асен</h4>
+                </div>
+                <div class="order_count">
+                  <p>Кол-во</p>
+                  <h4>1</h4>
+                </div>
+                <div class="order_price">
+                  <p>Сумма</p>
+                  <h4>1 830 р</h4>
+                </div>
+                <div class="order_status">
+                  <p>Статус от 02.02.22</p>
+                  <h4>Выполнен</h4>
+                </div>
+              </div>
+              <button class="repeat_btn">Повторить заказ</button>
+              <h2 class="order_title">Заказ №2</h2>
+              <p class="order_subtitle">Информация о заказе</p>
+              <div class="order_item">
+                <div class="order_name">
+                  <p>Наименование</p>
+                  <h4>Торшер KINK Light Асен</h4>
+                </div>
+                <div class="order_count">
+                  <p>Кол-во</p>
+                  <h4>1</h4>
+                </div>
+                <div class="order_price">
+                  <p>Сумма</p>
+                  <h4>1 830 р</h4>
+                </div>
+                <div class="order_status">
+                  <p>Статус от 02.02.22</p>
+                  <h4>Выполнен</h4>
+                </div>
+              </div>
+              <h2 class="order_title">Заказ №3</h2>
+              <p class="order_subtitle">Информация о заказе</p>
+              <div class="order_item">
+                <div class="order_name">
+                  <p>Наименование</p>
+                  <h4>Торшер KINK Light Асен</h4>
+                </div>
+                <div class="order_count">
+                  <p>Кол-во</p>
+                  <h4>1</h4>
+                </div>
+                <div class="order_price">
+                  <p>Сумма</p>
+                  <h4>1 830 р</h4>
+                </div>
+                <div class="order_status">
+                  <p>Статус от 02.02.22</p>
+                  <h4>Выполнен</h4>
+                </div>
+              </div>
+              <button class="all_orders">Просмотреть все заказы</button>
+            </div>
+            <div class="account_image">
+              <label for="">
+                <input
+                  type="file"
+                  onchange="download(this)"
+                  class="profile_img_file"
+                />
+                <img src="./icons/account-image.svg" alt="" class="empty_img" />
+                <img src="" alt="" class="profile_img dnone" />
+              </label>
+              <button class="change_img dnone">
+                Поменять фото профиля
+                <input onchange="download(this)" type="file" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="footer_bg footer_bg_white">
+      <div class="container">
+        <footer>
+          <div class="foot_logo">
+            <img src="./icons/logo_footer.svg" alt="" />
+          </div>
+          <div class="foot_1">
+            <h2 class="foot_1_title">Продукция</h2>
+            <ul class="foot_1_list">
+              <ul class="foot_list_left">
+                <li><a href="#">Люстры</a></li>
+                <li><a href="#">Светильники</a></li>
+                <li><a href="#">Бра и подсветки</a></li>
+                <li><a href="#">Торшеры</a></li>
+                <li><a href="#">Настольные лампы</a></li>
+                <li><a href="#">Споты</a></li>
+                <li><a href="#">Уличное освещение</a></li>
+                <li><a href="#">Лампы</a></li>
+              </ul>
+              <ul class="foot_list_right">
+                <li><a href="#">Электротовары</a></li>
+                <li><a href="#">Новогодние товары</a></li>
+                <li><a href="#">Прочее</a></li>
+                <li><a href="#">Распродажа</a></li>
+                <li><a href="#">Комплектующие</a></li>
+                <li><a href="#">Светодиодные ленты</a></li>
+                <li><a href="#">Трековые системы</a></li>
+                <li><a href="#">Товары оптом</a></li>
+              </ul>
+            </ul>
+          </div>
+          <ul class="foot_2">
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <ul class="foot_3">
+            <li>Контактные данные</li>
+            <li>г. Город, ул. Улица, д. Дом ХХ</li>
+            <li><a href="#">+7 (900) 000-00-00</a></li>
+            <li><a href="#">info@example.ru</a></li>
+          </ul>
+        </footer>
+        <div class="copyright">
+          <a href="#">Политика конфиденциальности</a>
+          <p>Разработка сайта — Edison Studio</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/burger.js"></script>
+    <script src="js/account.js"></script>
+  </body>
+</html>

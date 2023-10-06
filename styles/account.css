@@ -1,0 +1,357 @@
+.account_bg {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0 70px;
+}
+.account {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.account_pagination {
+  width: 23.7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.account_pagination button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ff6d00;
+  border-radius: 10px;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: #fff;
+  color: #ff6d00;
+}
+.account_pagination button:hover {
+  background-color: #ff6d00;
+  color: #fff;
+}
+.account_pagination button.active_pagination {
+  background-color: #ff6d00;
+  color: #fff;
+}
+.account_pagination button.active_pagination:hover {
+  background-color: #fff;
+  color: #ff6d00;
+}
+.account_image {
+  width: 23.8%;
+}
+.account_image label {
+  width: 100%;
+  aspect-ratio: 1.3/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7e7;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.account_image label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 5;
+  cursor: pointer;
+}
+.empty_img {
+  margin: auto auto;
+  width: 70%;
+  height: 70%;
+  cursor: pointer;
+}
+.profile_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: default;
+}
+.change_img {
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ff6d00;
+  color: #ff6d00;
+  border-radius: 10px;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+  position: relative;
+}
+.change_img:hover {
+  background-color: #ff6d00;
+  color: #fff;
+}
+.account_info {
+  width: 49.2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  display: none;
+}
+.order_info {
+  width: 49.2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  display: none;
+}
+.account_info.active_info,
+.order_info.active_info {
+  display: flex !important;
+}
+.order_title {
+  font-family: "Berlin";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1d1d1b;
+}
+.order_subtitle {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+  margin: 5px 0 10px;
+}
+.repeat_btn {
+  border: 1px solid #ff6d00;
+  background-color: transparent;
+  color: #ff6d00;
+  border-radius: 10px;
+  padding: 14px 20px;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.repeat_btn:hover {
+  background-color: #ff6d00;
+  color: #fff;
+}
+.all_orders {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #ff6d00;
+  cursor: pointer;
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.order_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid #969696;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px 10px;
+}
+.order_name,
+.order_count,
+.order_price,
+.order_status {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+.order_name {
+  width: 35%;
+}
+.order_count,
+.order_price {
+  width: 16.5%;
+}
+.order_status {
+  width: 30%;
+}
+.order_item p {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #969696;
+}
+.order_item h4 {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d1d1b;
+}
+.order_status h4 {
+  color: #94ff29;
+}
+.account_title {
+  font-family: "Berlin";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1d1d1b;
+}
+.account_title:last-of-type {
+  margin-top: 20px;
+}
+.account_info label {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #8e8e8d;
+  border-radius: 10px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.account_info label p {
+  font-family: "PT Root UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #969696;
+}
+.account_info label i {
+  cursor: pointer;
+}
+.standart_btns {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+}
+.standart_btns button {
+  height: 50px;
+  border: 1px solid #ff6d00;
+  border-radius: 10px;
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 0 28px;
+}
+.standart_btns button:first-of-type {
+  color: #ff6d00;
+  background-color: #fff;
+}
+.standart_btns button:first-of-type:hover {
+  color: #fff;
+  background-color: #ff6d00;
+}
+.standart_btns button:last-of-type {
+  color: #fff;
+  background-color: #ff6d00;
+}
+.standart_btns button:last-of-type:hover {
+  color: #ff6d00;
+  background-color: #fff;
+}
+.exit_btn {
+  font-family: "PT Root UI";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  transition: 0.4s;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.exit_btn:hover {
+  color: #ff6d00;
+}
+.standart_input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 0 0 20px;
+  font-size: 24px;
+  border-radius: 15px;
+}
+.error {
+  border: 1px solid red !important;
+}
+.change_img input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 3;
+  cursor: pointer;
+}

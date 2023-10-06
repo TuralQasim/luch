@@ -1,0 +1,335 @@
+@media screen and (max-width: 1366px) {
+  .account_pagination button {
+    height: 47px;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .account_title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .account_info label p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .account_title:last-of-type {
+    margin-top: 10px;
+  }
+  .standart_btns button {
+    height: 46px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .exit_btn {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .order_title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .order_subtitle {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+  }
+  .repeat_btn {
+    padding: 14px 20px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .all_orders {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .order_item p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .order_item h4 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .account_info,
+  .order_info {
+    width: 58%;
+  }
+  .account_image {
+    width: 20%;
+  }
+  .account_pagination {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .account_pagination button {
+    height: 47px;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .account_title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .account_info label p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .account_title:last-of-type {
+    margin-top: 10px;
+  }
+  .standart_btns button {
+    height: 46px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .exit_btn {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .order_title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .order_subtitle {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+  }
+  .repeat_btn {
+    padding: 14px 20px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .all_orders {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .order_item p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .order_item h4 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .account_info,
+  .order_info {
+    width: 75%;
+    order: 1;
+  }
+  .account_image {
+    width: 75%;
+  }
+  .account_pagination {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .account_image label {
+    width: 100%;
+    aspect-ratio: 1.5/1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .account_pagination button {
+    height: 47px;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .account_title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .account_info label p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .account_info label input {
+    font-size: 20px;
+  }
+  .standart_btns button {
+    height: 43px;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .exit_btn {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .order_title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .order_subtitle {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .repeat_btn {
+    padding: 14px 20px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .all_orders {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .order_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .order_name,
+  .order_count,
+  .order_price,
+  .order_status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+  .order_count {
+    order: 3;
+  }
+  .order_price {
+    order: 1;
+  }
+  .order_item p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .order_item h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .account_info,
+  .order_info {
+    width: 460px;
+    order: 1;
+  }
+  .account_image {
+    width: 75%;
+  }
+  .account_pagination {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .account_image label {
+    width: 100%;
+    aspect-ratio: 1.5/1;
+  }
+}
+@media screen and (max-width: 480px) {
+  .account_pagination button {
+    height: 47px;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .account_title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .account_info label p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .account_info label input {
+    font-size: 20px;
+  }
+  .standart_btns button {
+    height: 43px;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .exit_btn {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .order_title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .order_subtitle {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .repeat_btn {
+    padding: 14px 20px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .all_orders {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .order_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .order_name,
+  .order_count,
+  .order_price,
+  .order_status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+  .order_count {
+    order: 3;
+  }
+  .order_price {
+    order: 1;
+  }
+  .order_item p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .order_item h4 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+  }
+  .account_info,
+  .order_info {
+    width: 100%;
+    order: 1;
+  }
+  .account_image {
+    width: 75%;
+  }
+  .account_pagination {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .account_image label {
+    width: 100%;
+    aspect-ratio: 1.5/1;
+  }
+}
+@media screen and (max-width: 320px) {
+}
