@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luch</title>
+    <link rel="stylesheet" href="./styles/catalog.css" />
+    <link rel="stylesheet" href="./responsive/catalog-responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="fonts/berlin_bold/stylesheet.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="./responsive/global-responsive.css" />
+  </head>
+  <body>
+    <div class="burger_menu">
+      <ul class="burger_menu_hero">
+        <i class="fa-solid fa-xmark" id="closeBtn"></i>
+        <li>
+          <a href="catalog.html">Каталог <i class="fa-solid fa-plus"></i></a>
+        </li>
+        <li><a href="delivery.html">Доставка и оплата</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <div class="user_icon">
+          <a href="account.html">
+            <img src="icons/user.svg" alt="" />
+            <p>Личный кабинет</p></a
+          >
+        </div>
+        <div class="burger_bottom">
+          <ul>
+            <li class="basket_icon">
+              <a href="#"><img src="icons/basket.svg" alt="" /></a>
+            </li>
+            <li class="fav_icon">
+              <a href="#"><img src="icons/fav.svg" alt="" /></a>
+            </li>
+            <li class="arrows_icon">
+              <a href="#"><img src="icons/arrows.svg" alt="" /></a>
+            </li>
+          </ul>
+          <div class="resp_contacts">
+            <div class="resp_contacts_item">
+              <p>Контактный телефон</p>
+              <a href="tel:79000000000">+7 (900) 000-00-00</a>
+            </div>
+            <div class="resp_contacts_item">
+              <p>Электронная почта</p>
+              <a href="mailto:info@example.ru">info@example.ru</a>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div class="header_bg">
+      <div class="container">
+        <header>
+          <i class="fa-solid fa-bars" id="burgerBtn"></i>
+          <img src="./icons/logo_header.svg" alt="" class="logo" />
+          <label for="" class="search">
+            <input type="text" placeholder="Поиск по каталогу" />
+            <img src="icons/search.svg" alt="" />
+          </label>
+          <div class="phone">
+            <p>Контактный телефон</p>
+            <a href="tel:79000000000">+7 (900) 000-00-00</a>
+          </div>
+          <div class="mail">
+            <p>Электронная почта</p>
+            <a href="mailto:info@example.ru">info@example.ru</a>
+          </div>
+          <button class="application_btn">Оставить заявку</button>
+          <img src="./icons/basket.svg" alt="" class="mobile_basket" />
+        </header>
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <div class="subheader">
+          <ul class="narbar">
+            <li>
+              <a href="catalog.html"
+                >Каталог <i class="fa-solid fa-plus"></i
+              ></a>
+            </li>
+            <li><a href="delivery.html">Доставка и оплата</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+          <ul class="subheader_btns">
+            <li class="basket_icon">
+              <a href="#"><img src="icons/basket.svg" alt="" /></a>
+            </li>
+            <li class="fav_icon">
+              <a href="#"><img src="icons/fav.svg" alt="" /></a>
+            </li>
+            <li class="arrows_icon">
+              <a href="#"><img src="icons/arrows.svg" alt="" /></a>
+            </li>
+            <div class="user_icon">
+              <a href="account.html">
+                <img src="icons/user.svg" alt="" />
+                <p>Личный кабинет</p></a
+              >
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="sitebar">
+          <a href="index.html">Главная</a>
+          <span></span>
+          <h5>Каталог</h5>
+        </div>
+        <div class="categories">
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 1.png" alt="" />
+            <p>Люстры</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 2.png" alt="" />
+            <p>Светильники</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 3.png" alt="" />
+            <p>Бра и подсветки</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 4.png" alt="" />
+            <p>Торшеры</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 5.png" alt="" />
+            <p>Настольные лампы</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 6.png" alt="" />
+            <p>Споты</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 7.png" alt="" />
+            <p>Уличное освещение</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 8.png" alt="" />
+            <p>Лампы</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 9.png" alt="" />
+            <p>Электротовары</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 10.png" alt="" />
+            <p>Новогодние товары</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 11.png" alt="" />
+            <p>Прочее</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 12.png" alt="" />
+            <p>РАСПРОДАЖА</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 13.png" alt="" />
+            <p>Комплектующие</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 14.png" alt="" />
+            <p>Светодиодные ленты</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 15.png" alt="" />
+            <p>Трековые системы</p>
+          </a>
+          <a href="#" class="category_item">
+            <img src="./images/catalog/product 16.png" alt="" />
+            <p>Товары оптом</p>
+          </a>
+        </div>
+        <div class="filters_show">
+          <button><i class="fa-solid fa-chevron-down"></i> Фильтры</button>
+        </div>
+        <div class="catalog">
+          <div class="filters">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="filters_container">
+              <div class="radio_inputs">
+                <div class="radio_inputs_left">
+                  <label for="radio_inputs_left1">
+                    <input
+                      type="radio"
+                      name="ooooooo"
+                      id="radio_inputs_left1"
+                      checked
+                    />
+                    <p>Потолочные</p>
+                  </label>
+                  <label for="radio_inputs_left2">
+                    <input
+                      type="radio"
+                      name="ooooooo"
+                      id="radio_inputs_left2"
+                    />
+                    <p>Подвесные</p>
+                  </label>
+                  <label for="radio_inputs_left3">
+                    <input
+                      type="radio"
+                      name="ooooooo"
+                      id="radio_inputs_left3"
+                    />
+                    <p>Уличные</p>
+                  </label>
+                </div>
+                <div class="radio_inputs_right">
+                  <label for="radio_inputs_right1">
+                    <input
+                      type="radio"
+                      name="kkkk"
+                      id="radio_inputs_right1"
+                      checked
+                    />
+                    <p>Настольные</p>
+                  </label>
+                  <label for="radio_inputs_right2">
+                    <input type="radio" name="kkkk" id="radio_inputs_right2" />
+                    <p>Напольные</p>
+                  </label>
+                  <label for="radio_inputs_right3">
+                    <input type="radio" name="kkkk" id="radio_inputs_right3" />
+                    <p>Точеченые</p>
+                  </label>
+                </div>
+              </div>
+              <div class="scroll_bar">
+                <h4 class="scroll_bar_title">Цена</h4>
+                <div class="slider-container">
+                  <div class="slider">
+                    <input
+                      type="range"
+                      min="0"
+                      max="100"
+                      value="30"
+                      id="minRangeInput"
+                    />
+                    <input
+                      type="range"
+                      min="0"
+                      max="100"
+                      value="70"
+                      id="maxRangeInput"
+                    />
+                  </div>
+                  <h5>Минимум: <span id="minValue">30</span></h5>
+                  <h5>Максимум: <span id="maxValue">70</span></h5>
+                </div>
+              </div>
+              <div class="line"></div>
+              <div class="from_shop">
+                <p>Забрать из магазина</p>
+                <div class="activate_btn"></div>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Форма лампы</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel1">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel1" />
+                  </label>
+                  <label for="forLabel2">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel2" />
+                  </label>
+                  <label for="forLabel3">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel3" />
+                  </label>
+                  <label for="forLabel4">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel4" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Размер</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel5">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel5" />
+                  </label>
+                  <label for="forLabel6">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel6" />
+                  </label>
+                  <label for="forLabel7">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel7" />
+                  </label>
+                  <label for="forLabel8">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel8" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Место применения</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel9">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel9" />
+                  </label>
+                  <label for="forLabel10">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel10" />
+                  </label>
+                  <label for="forLabel11">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel11" />
+                  </label>
+                  <label for="forLabel12">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel12" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Тип лампочки</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel13">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel13" />
+                  </label>
+                  <label for="forLabel14">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel14" />
+                  </label>
+                  <label for="forLabel15">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel15" />
+                  </label>
+                  <label for="forLabel16">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel16" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Форма светильников</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel17">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel17" />
+                  </label>
+                  <label for="forLabel18">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel18" />
+                  </label>
+                  <label for="forLabel19">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel19" />
+                  </label>
+                  <label for="forLabel20">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel20" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Параметры плафонов</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel21">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel21" />
+                  </label>
+                  <label for="forLabel22">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel22" />
+                  </label>
+                  <label for="forLabel23">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel23" />
+                  </label>
+                  <label for="forLabel24">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel24" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Параметры арматуры</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel25">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel25" />
+                  </label>
+                  <label for="forLabel26">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel26" />
+                  </label>
+                  <label for="forLabel27">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel27" />
+                  </label>
+                  <label for="forLabel28">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel28" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Тип управления</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel29">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel29" />
+                  </label>
+                  <label for="forLabel30">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel30" />
+                  </label>
+                  <label for="forLabel31">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel31" />
+                  </label>
+                  <label for="forLabel32">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel32" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Особенности</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel33">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel33" />
+                  </label>
+                  <label for="forLabel34">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel34" />
+                  </label>
+                  <label for="forLabel35">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel35" />
+                  </label>
+                  <label for="forLabel36">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel36" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Страна</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel37">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel37" />
+                  </label>
+                  <label for="forLabel38">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel38" />
+                  </label>
+                  <label for="forLabel39">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel39" />
+                  </label>
+                  <label for="forLabel40">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel40" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Бренд</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel41">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel41" />
+                  </label>
+                  <label for="forLabel42">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel42" />
+                  </label>
+                  <label for="forLabel43">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel43" />
+                  </label>
+                  <label for="forLabel44">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel44" />
+                  </label>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="standart_ul">
+                <label for="">
+                  <p>Датчик движения</p>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul>
+                  <label for="forLabel45">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel45" />
+                  </label>
+                  <label for="forLabel46">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel46" />
+                  </label>
+                  <label for="forLabel47">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel47" />
+                  </label>
+                  <label for="forLabel48">
+                    <p>Lorem, ipsum.</p>
+                    <input type="checkbox" id="forLabel48" />
+                  </label>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="catalog_right">
+            <div class="catalog_container">
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product1.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product2.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product3.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Arte Lamp Furore</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product4.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Maytoni Chester</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product1.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product2.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product3.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Arte Lamp Furore</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product4.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Maytoni Chester</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product1.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product2.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Odeon Light Modern Slota</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product3.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Arte Lamp Furore</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+              <div class="product_item">
+                <a href="catalog-card.html" class="product_img">
+                  <img src="./images/product4.png" alt="" />
+                  <div class="product_img_top">
+                    <p>Акция</p>
+                    <div class="product_img_top_icons">
+                      <img src="./icons/arrows.svg" alt="" />
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_text">
+                  <h6>В наличии</h6>
+                  <h3>Подвесная люстра Maytoni Chester</h3>
+                  <h2>4 500 ₽</h2>
+                  <button>В корзину</button>
+                  <button>В один клик</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="footer_bg footer_bg_white">
+      <div class="container">
+        <footer>
+          <div class="foot_logo">
+            <img src="./icons/logo_footer.svg" alt="" />
+          </div>
+          <div class="foot_1">
+            <h2 class="foot_1_title">Продукция</h2>
+            <ul class="foot_1_list">
+              <ul class="foot_list_left">
+                <li><a href="#">Люстры</a></li>
+                <li><a href="#">Светильники</a></li>
+                <li><a href="#">Бра и подсветки</a></li>
+                <li><a href="#">Торшеры</a></li>
+                <li><a href="#">Настольные лампы</a></li>
+                <li><a href="#">Споты</a></li>
+                <li><a href="#">Уличное освещение</a></li>
+                <li><a href="#">Лампы</a></li>
+              </ul>
+              <ul class="foot_list_right">
+                <li><a href="#">Электротовары</a></li>
+                <li><a href="#">Новогодние товары</a></li>
+                <li><a href="#">Прочее</a></li>
+                <li><a href="#">Распродажа</a></li>
+                <li><a href="#">Комплектующие</a></li>
+                <li><a href="#">Светодиодные ленты</a></li>
+                <li><a href="#">Трековые системы</a></li>
+                <li><a href="#">Товары оптом</a></li>
+              </ul>
+            </ul>
+          </div>
+          <ul class="foot_2">
+            <li><a href="delivery.html">Доставка и оплата</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+          <ul class="foot_3">
+            <li>Контактные данные</li>
+            <li>г. Город, ул. Улица, д. Дом ХХ</li>
+            <li><a href="#">+7 (900) 000-00-00</a></li>
+            <li><a href="#">info@example.ru</a></li>
+          </ul>
+        </footer>
+        <div class="copyright">
+          <a href="#">Политика конфиденциальности</a>
+          <p>Разработка сайта — Edison Studio</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/burger.js"></script>
+    <script src="js/catalog.js"></script>
+  </body>
+</html>

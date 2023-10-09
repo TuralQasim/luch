@@ -447,6 +447,7 @@ footer {
   align-items: center;
 }
 .product_img {
+  display: inline-block;
   width: 100%;
   position: relative;
 }
@@ -561,4 +562,15 @@ footer {
 .product_text button:last-of-type:hover {
   background-color: #1d1d1b;
   color: #fff;
+}
+.sign_in_bg {
+  width: 100%;
+  padding: 50px 0;
+}
+.sign_in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

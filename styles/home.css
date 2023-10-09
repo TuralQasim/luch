@@ -1,4 +1,3 @@
-
 /* ----------------------SWIPER----------------------- */
 
 .swiper_container {
@@ -147,14 +146,17 @@
   background-color: #ff6d00;
 }
 .advantages_item {
-  height: 272px !important;
   width: 100%;
   padding: 25px 20px;
+  height: 282px !important;
   border: 1px solid #f5f1ee;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .advantages_item_top {
-  margin-bottom: auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -185,16 +187,12 @@
   letter-spacing: 0em;
   text-align: left;
   color: #1d1d1b;
-  margin-top: auto !important;
 }
 .advantages_item_bottom {
-  margin-top: auto !important;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  height: 100%;
-  transform: translateY(-40px);
 }
 .advantages_item:last-of-type .advantages_item_bottom {
   display: flex;
@@ -236,6 +234,7 @@
   width: 100%;
   height: 100%;
   border-radius: 20px;
+  object-fit: cover;
 }
 .catalog_examples_left {
   width: 59%;
@@ -279,6 +278,7 @@
   height: 100%;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
 }
 .catalog_examples_item h5 {
   font-family: "Berlin";
@@ -371,5 +371,22 @@
   text-align: left;
   color: #fff;
 }
-
-
+.products {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+.prod_title {
+  font-family: "Berlin";
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d1d1b;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 30px;
+}
