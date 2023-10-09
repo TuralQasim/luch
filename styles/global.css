@@ -568,6 +568,14 @@ footer {
 .reset_bg {
   width: 100%;
   padding: 50px 0;
+  background-image: url("../images/sign-in-up.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 130vh;
+}
+.registration_bg {
+  height: 145vh;
 }
 .sign_in,
 .registration,
@@ -673,7 +681,7 @@ footer {
 .registration button:hover,
 .reset button:hover {
   color: #ff6d00;
-  background-color: #f5f1ee9a;
+  background-color: #f5f1eed2;
 }
 .sign_in_bottom {
   width: 100%;

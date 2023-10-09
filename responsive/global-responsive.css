@@ -393,12 +393,19 @@
   .registration,
   .reset {
     width: 70%;
-    padding: 80px 0;
+    padding: 100px 0 20px;
+  }
+  .sign_in h1,
+  .registration h1,
+  .reset h1 {
+    margin-bottom: 30px;
   }
   .sign_in_bg,
   .registration_bg,
   .reset_bg {
     padding: 0;
+    height: 100vh;
+    overflow: auto;
   }
 }
 @media screen and (max-width: 768px) {
@@ -582,11 +589,21 @@
     gap: 20px;
     padding: 0;
   }
+  .sign_in_bg,
+  .registration_bg,
+  .reset_bg {
+    padding: 0;
+    height: 100vh;
+  }
+
   .sign_in,
   .registration,
   .reset {
     width: 80%;
-    padding: 80px 0;
+    padding: 80px 0 10px;
+  }
+  .reset{
+    padding: 100px 0 0;
   }
   .sign_in h1,
   .reset h1 {
@@ -765,11 +782,17 @@
     gap: 20px;
     padding: 0 30px;
   }
+  .sign_in_bg,
+  .registration_bg,
+  .reset_bg {
+    padding: 0;
+    height: 100vh;
+  }
   .sign_in,
   .registration,
   .reset {
     width: 100%;
-    padding: 80px 0;
+    padding: 120px 0 10px;
   }
   .sign_in h1 {
     font-size: 40px;
