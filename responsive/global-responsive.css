@@ -389,6 +389,17 @@
     gap: 20px;
     padding: 0 50px;
   }
+  .sign_in,
+  .registration,
+  .reset {
+    width: 70%;
+    padding: 80px 0;
+  }
+  .sign_in_bg,
+  .registration_bg,
+  .reset_bg {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 768px) {
   .sitebar a {
@@ -571,6 +582,23 @@
     gap: 20px;
     padding: 0;
   }
+  .sign_in,
+  .registration,
+  .reset {
+    width: 80%;
+    padding: 80px 0;
+  }
+  .sign_in h1,
+  .reset h1 {
+    font-size: 44px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+  .registration h1 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 30px;
+  }
 }
 @media screen and (max-width: 480px) {
   .foot_1_title {
@@ -737,6 +765,51 @@
     gap: 20px;
     padding: 0 30px;
   }
+  .sign_in,
+  .registration,
+  .reset {
+    width: 100%;
+    padding: 80px 0;
+  }
+  .sign_in h1 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 25px;
+  }
+  .registration h1,
+  .reset h1 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 25px;
+  }
+  .sign_in form input,
+  .registration form input,
+  .reset form input {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .sign_in form input::placeholder,
+  .registration form input::placeholder,
+  .reset form input::placeholder {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .sign_in button,
+  .reset button {
+    height: 50px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .sign_in_bottom a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .registration a {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 @media screen and (max-width: 320px) {
   .sitebar a {
@@ -822,5 +895,14 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     padding: 0;
+  }
+  .sign_in_bottom a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .registration h1 {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 25px;
   }
 }
