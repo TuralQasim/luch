@@ -13,9 +13,9 @@ function enableScroll() {
 }
 burgerBtn.addEventListener("click", () => {
   burgerMenu.classList.add("burger_menu_visible");
-  disableScroll();
+  // disableScroll();
 });
 closeBtn.addEventListener("click", () => {
   burgerMenu.classList.remove("burger_menu_visible");
-  enableScroll();
+  // enableScroll();
 });

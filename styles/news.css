@@ -1,10 +1,11 @@
 .news_bg {
   width: 100%;
-  padding: 50px 0;
+  padding: 15px 0 108px;
   background-color: #fff;
 }
 .news {
   width: 100%;
+  margin-top: 70px;
 }
 .news h1 {
   font-family: "Berlin";
@@ -15,7 +16,7 @@
   text-align: center;
   color: #1d1d1b;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 .news_container {
   width: 100%;

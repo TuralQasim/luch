@@ -1,9 +1,22 @@
 @media screen and (max-width: 1366px) {
+  .catalog_card_bg {
+    padding: 20px 0 101px;
+  }
   .catalog_left {
-    width: 43.8% !important;
+    max-width: 585px;
   }
   .catalog_right {
-    width: 55% !important;
+    max-width: 721px;
+  }
+  .mySwiper {
+    height: 81px;
+    margin-top: 26px;
+  }
+  .mySwiper .swiper-slide {
+    height: 81px !important;
+    aspect-ratio: 1/1 !important;
+    max-width: 81px;
+    opacity: 0.4;
   }
   .catalog_title {
     font-size: 48px;
@@ -15,8 +28,12 @@
     line-height: 28px;
   }
   .catalog_items {
-    width: 80%;
-    margin: 30px 0 20px;
+    max-width: 547px;
+    margin: 50px 0 25px;
+  }
+  .option {
+    width: 100%;
+    max-width: 547px;
   }
   .catalog_item p {
     font-size: 22px;
@@ -26,9 +43,6 @@
     font-size: 22px;
     line-height: 26px;
   }
-  .option {
-    width: 80%;
-  }
   .option_hero p {
     font-size: 16px;
     line-height: 19px;
@@ -37,10 +51,22 @@
     font-size: 48px;
     line-height: 60px;
   }
+  .catalog_btns {
+    max-width: 547px;
+    gap: 15px;
+  }
   .catalog_btns button {
+    width: calc((100% - 15px) / 2);
     font-size: 16px;
     line-height: 19px;
     height: 49px;
+  }
+  .catalog_info {
+    gap: 30px;
+    margin-top: 99px;
+  }
+  .catalog_info_btns {
+    gap: 20px;
   }
   .catalog_info_btns button {
     font-size: 16px;
@@ -57,40 +83,86 @@
   }
 }
 @media screen and (max-width: 1024px) {
+  .header_bg {
+    margin-bottom: 0 !important;
+  }
 }
 @media screen and (max-width: 768px) {
-  .catalog_card {
-    display: flex;
-    flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
+  .catalog_card_bg {
+    padding: 20px 0 79px;
+  }
+  .catalog {
+    gap: 30px;
   }
   .catalog_left {
     width: 100% !important;
+    max-width: 339px;
   }
   .catalog_right {
     width: 100% !important;
+    max-width: 369px;
+  }
+  .mySwiper {
+    height: 78px;
+    margin-top: 16px;
+  }
+  .mySwiper .swiper-slide {
+    height: 78px !important;
+    aspect-ratio: 1/1 !important;
+    max-width: 78px;
+    opacity: 0.4;
+  }
+  .catalog_card .catalog_btns {
+    display: none !important;
+  }
+  .catalog_btns_768 {
+    display: flex;
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 15px;
+    height: 49px;
+    margin-top: 20px;
+  }
+  .catalog_btns_768 button {
+    width: 100% !important;
+    max-width: 361px !important;
+  }
+  .catalog_items {
+    max-width: 100%;
+    margin: 50px 0 25px;
+    gap: 10px;
+  }
+  .option {
+    width: 100%;
+    max-width: 100%;
   }
   .catalog_title {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 50px;
     max-width: 80%;
   }
+  .price {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 50px 0 20px;
+    text-align: right;
+    width: 100%;
+  }
   .catalog_right h6 {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 25.2px;
   }
   .catalog_items {
     width: 100%;
     margin: 30px 0 20px;
   }
   .catalog_item p {
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 24px;
   }
   .catalog_item h5 {
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 24px;
   }
   .option {
     width: 100%;
@@ -99,14 +171,17 @@
     font-size: 16px;
     line-height: 19px;
   }
-  .price {
-    font-size: 48px;
-    line-height: 60px;
-  }
   .catalog_btns button {
     font-size: 16px;
     line-height: 19px;
     height: 49px;
+  }
+  .catalog_info {
+    margin-top: 72px;
+    gap: 25px;
+  }
+  .catalog_info_btns {
+    margin-bottom: 5px;
   }
   .catalog_info_btns button {
     font-size: 16px;
@@ -122,7 +197,34 @@
     margin: 50px 0 30px;
   }
 }
+@media screen and (max-width: 620px) {
+  .catalog_card {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .catalog_left {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .catalog_right {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
 @media screen and (max-width: 480px) {
+  .catalog_left {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: max-content !important;
+  }
+  .catalog_right {
+    width: 100% !important;
+    height: max-content !important;
+    max-width: 100% !important;
+  }
   .catalog_title {
     font-size: 40px;
     line-height: 56px;
@@ -143,6 +245,9 @@
   .catalog_item h5 {
     font-size: 20px;
     line-height: 24px;
+  }
+  .catalog_btns {
+    height: max-content !important;
   }
   .option {
     width: 100%;
@@ -169,11 +274,11 @@
     display: inline-block;
     width: 100%;
   }
-  .catalog_btns{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+  .catalog_btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
   }
   .catalog_info_btns button:first-of-type {
@@ -202,4 +307,63 @@
   }
 }
 @media screen and (max-width: 320px) {
+  .catalog_card_bg {
+    padding: 20px 0 50px;
+  }
+  .catalog_left {
+    max-width: 290px;
+  }
+  .catalog_right {
+    max-width: 290px;
+  }
+  .catalog_card {
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .price {
+    text-align: left;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 25px 0 20px;
+  }
+  .catalog_title {
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 100%;
+  }
+  .curtom_btns {
+    display: none;
+  }
+  .catalog_right h6 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .catalog_items {
+    width: 100%;
+    max-width: 100%;
+    gap: 10px;
+    margin: 50px 0 25px;
+  }
+  .catalog_item p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .catalog_item h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .catalog_info {
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .catalog_info p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .catalog_info button,
+  .catalog_btns_768 button {
+    font-size: 14px;
+    line-height: 17px;
+    height: 45px;
+  }
 }

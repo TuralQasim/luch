@@ -1,24 +1,25 @@
 .delivery_bg {
   width: 100%;
-  padding-top: 30px;
+  padding: 15px 0 110px;
   background-color: #fff;
 }
 .delivery {
   width: 100%;
+  margin-top: 70px;
 }
 .delivery_img {
   width: 100%;
   border-radius: 20px;
-  aspect-ratio: 3.18/1;
+  height: 571px;
 }
 .delivery_hero {
-  width: 66.1%;
-  padding: 70px 0;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 1203px;
+  margin: 110px auto 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 20px;
 }
 .delivery_hero h1 {
@@ -29,7 +30,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #1d1d1b;
-  margin-bottom: 20px;
+  margin: 0 auto 50px;
 }
 .delivery_hero p {
   font-family: "PT Root UI";

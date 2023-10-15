@@ -1,10 +1,10 @@
 .news_single_bg {
   background-color: #fff;
   width: 100%;
-  padding: 50px 0;
+  padding: 15px 0 110px;
 }
 .news_single {
-  width: 66.15%;
+  width: 1204px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,12 +19,12 @@
   letter-spacing: 0em;
   text-align: center;
   color: #1d1d1b;
-  margin-bottom: 60px;
+  margin: 70px 0;
 }
 .news_single img {
   width: 100%;
   border-radius: 25px;
-  aspect-ratio: 2.34/1;
+  height: 515px;
 }
 .news_single_text {
   display: flex;
@@ -32,7 +32,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  gap: 10px;
+  margin-top: 70px;
 }
 .news_single_text h2 {
   font-family: "Berlin";
@@ -51,6 +51,12 @@
   letter-spacing: 0em;
   text-align: left;
   color: #000;
+  margin: 20px 0;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #e7e7e7;
   margin-bottom: 20px;
 }
 .news_single_text p {
@@ -70,5 +76,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #1d1d1b;
-  margin: 10px 0;
+}
+.news_single_text p:nth-of-type(2){
+  margin: 25px 0;
 }

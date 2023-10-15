@@ -1,21 +1,24 @@
 .account_bg {
   width: 100%;
   background-color: #fff;
-  padding: 50px 0 70px;
+  padding: 15px 0 110px;
 }
 .account {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-top: 70px;
+  gap: 30px;
 }
 .account_pagination {
-  width: 23.7%;
+  width: 100%;
+  max-width: 432px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 15px;
+  gap: 20px;
 }
 .account_pagination button {
   width: 100%;
@@ -49,11 +52,13 @@
   color: #ff6d00;
 }
 .account_image {
-  width: 23.8%;
+  width: 100%;
+  max-width: 433px;
+  height: 335px;
 }
 .account_image label {
   width: 100%;
-  aspect-ratio: 1.3/1;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,7 +119,8 @@
   color: #fff;
 }
 .account_info {
-  width: 49.2%;
+  width: 100%;
+  max-width: 895px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -123,7 +129,8 @@
   display: none;
 }
 .order_info {
-  width: 49.2%;
+  width: 100%;
+  max-width: 895px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -143,6 +150,10 @@
   letter-spacing: -0.02em;
   text-align: left;
   color: #1d1d1b;
+  margin-top: 40px;
+}
+.order_title:first-of-type {
+  margin-top: 0;
 }
 .order_subtitle {
   font-family: "PT Root UI";
@@ -152,7 +163,6 @@
   letter-spacing: 0em;
   text-align: left;
   color: #1d1d1b;
-  margin: 5px 0 10px;
 }
 .repeat_btn {
   border: 1px solid #ff6d00;
@@ -168,6 +178,7 @@
   text-align: left;
   transition: 0.4s;
   cursor: pointer;
+  margin-top: 20px;
 }
 .repeat_btn:hover {
   background-color: #ff6d00;
@@ -185,6 +196,7 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
+  margin-top: 40px;
 }
 .order_item {
   display: flex;
@@ -194,7 +206,7 @@
   border: 1px solid #969696;
   border-radius: 10px;
   overflow: hidden;
-  padding: 15px 10px;
+  padding: 20px;
 }
 .order_name,
 .order_count,
@@ -204,7 +216,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 10px;
+  gap: 29px;
 }
 .order_name {
   width: 35%;
@@ -259,6 +271,10 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin: 2px 0;
+}
+.account_info label:first-of-type {
+  margin-top: 0;
 }
 .account_info label p {
   font-family: "PT Root UI";
@@ -273,12 +289,12 @@
   cursor: pointer;
 }
 .standart_btns {
-  margin: 10px 0;
   width: 100%;
   display: flex;
   justify-content: flex-start;
   gap: 30px;
   align-items: center;
+  margin: 20px 0;
 }
 .standart_btns button {
   height: 50px;

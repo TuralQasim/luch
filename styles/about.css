@@ -1,22 +1,23 @@
-.about_bg{
+.about_bg {
   width: 100%;
-  padding-top: 50px;
+  padding: 15px 0 100px;
   background-color: #fff;
 }
 .about_image {
   width: 100%;
   border-radius: 20px;
-  aspect-ratio: 3.2/1;
+  height: 570px;
+  margin: 70px 0 110px;
 }
 .about_hero {
-  width: 66.1%;
+  width: 100%;
+  max-width: 1203px;
   margin: 0 auto;
-  padding: 50px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 20px;
 }
 .about_hero h1 {
   font-family: "Berlin";
@@ -26,7 +27,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #1d1d1b;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .about_hero p {
   font-family: "PT Root UI";
@@ -42,10 +43,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
+  margin: 20px 0;
+  height: 587px;
 }
 .about_hero_images img {
-  width: calc((100% - 15px) / 2);
-  aspect-ratio: 1.47/1;
+  width: 100%;
+  height: 100%;
+  max-width: 587px;
   border-radius: 20px;
 }

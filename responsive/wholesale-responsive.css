@@ -1,7 +1,11 @@
 @media screen and (max-width: 1366px) {
+  .wholesale_bg {
+    padding: 17px 0 100px;
+  }
   .wholesale_top {
-    width: 68.5%;
-    margin: 0 auto 40px;
+    width: 100%;
+    max-width: 936px;
+    margin: 50px auto;
   }
   .wholesale_top h1 {
     font-size: 48px;
@@ -13,14 +17,16 @@
     line-height: 19.2px;
   }
   .wholesale_bottom {
-    height: 330px;
+    height: 342px;
   }
   .wholesale_bottom > img {
-    width: 24.15%;
+    width: 100%;
+    max-width: 330px;
   }
   .request {
-    width: 75%;
-    padding: 50px 30px;
+    width: 100%;
+    max-width: 996px;
+    padding: 50px 40px;
   }
   .request h2 {
     font-size: 48px;
@@ -31,12 +37,13 @@
     line-height: 22.68px;
   }
   .request > label {
-    gap: 10px;
+    gap: 22px;
     height: 52px;
   }
   .request > label input {
-    width: calc((100% - 20px) / 3);
-    padding-left: 15px;
+    width: 100%;
+    max-width: 290px;
+    padding-left: 20px;
   }
   .request > label input::placeholder {
     font-size: 16px;
@@ -47,17 +54,45 @@
     line-height: 19.2px;
   }
 }
+@media screen and (max-width: 1080px) {
+  .request {
+    padding: 50px 25px;
+    max-width: 1026px;
+  }
+  .request h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .request_bottom label p,
+  .request p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .wholesale_bottom > img {
+    max-width: 300px;
+  }
+}
 @media screen and (max-width: 1024px) {
+  .header_bg {
+    margin-bottom: 0 !important;
+  }
 }
 @media screen and (max-width: 768px) {
+  .header_bg {
+    margin-bottom: 0 !important;
+  }
+  .wholesale_bg {
+    padding: 20px 0 70px;
+  }
   .wholesale_top {
-    width: 81%;
-    margin: 0 auto 30px;
+    width: 100%;
+    max-width: 598px;
+    margin: 40px auto;
   }
   .wholesale_top h1 {
     font-size: 40px;
     line-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .wholesale_top p {
     font-size: 15px;
@@ -67,17 +102,20 @@
     height: max-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .wholesale_bottom > img {
     width: 100%;
-    aspect-ratio: 3.12/1;
+    max-width: 100%;
+    height: 237px;
     object-fit: cover;
   }
   .request {
     width: 100%;
-    padding: 50px 30px;
+    max-width: 100%;
+    height: 298px;
+    padding: 40px 30px;
   }
   .request h2 {
     font-size: 40px;
@@ -88,36 +126,103 @@
     line-height: 19.2px;
   }
   .request > label {
-    gap: 10px;
+    gap: 22px;
     height: 42px;
   }
   .request > label input {
-    width: calc((100% - 20px) / 3);
-    padding-left: 10px;
+    width: 100%;
+    max-width: 214px;
+    padding-left: 20px;
   }
   .request > label input::placeholder {
     font-size: 15px;
     line-height: 18px;
   }
+  .request_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
   .request_bottom button {
     font-size: 16px;
     line-height: 19.2px;
     padding: 14px 0;
-    width: 40%;
+    width: 100%;
+    max-width: 328px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .request_bottom label {
-    width: 57%;
+    width: 100%;
+    max-width: 302px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start !important;
+  }
+  .request_bottom label p {
+    font-size: 15px;
+    height: 18px;
+  }
+  .request_bottom label input {
+    transform: translateY(10px);
+  }
+}
+@media screen and (max-width: 550px) {
+  .request {
+    height: max-content;
+  }
+  .request > label {
+    gap: 5px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 15px;
+  }
+  .request > label input {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 20px;
+    height: 43px;
+  }
+  .request_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .request_bottom button {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 14px 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .request_bottom label {
+    width: 100% !important;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px !important;
+  }
+  .request_bottom > label p {
+    text-align: left !important;
   }
 }
 @media screen and (max-width: 480px) {
-  .wholesale_top {
-    width: 100%;
-    margin: 0 auto 20px;
-  }
   .wholesale_top h1 {
     font-size: 36px;
     line-height: 45px;
@@ -127,7 +232,6 @@
     font-size: 15px;
     line-height: 18px;
   }
-
   .wholesale_bottom > img {
     width: 100%;
     aspect-ratio: 2.5/1;
@@ -155,7 +259,6 @@
     justify-content: center;
     align-items: center;
   }
-
   .request > label input {
     width: 100%;
     padding-left: 10px;
@@ -190,9 +293,68 @@
   }
 }
 @media screen and (max-width: 320px) {
+  .wholesale_bg {
+    padding: 15px 0 50px;
+  }
   .wholesale_bottom > img {
     width: 100%;
-    aspect-ratio: 1.5/1;
+    height: 237px;
     object-fit: cover;
+  }
+  .wholesale_top {
+    width: 100%;
+    max-width: 290px;
+    margin: 30px auto;
+    gap: 15px;
+  }
+  .wholesale_top h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .wholesale_top p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .request {
+    padding: 30px 20px;
+  }
+  .request h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .request > label {
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .request > p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .request > label input {
+    height: 42px;
+    padding-left: 20px;
+  }
+  .request > label input::placeholder {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .request_bottom label p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .request_bottom label input {
+    width: 17px;
+    height: 17px;
+    transform: translateY(15px);
+  }
+  .request_bottom button {
+    height: 43px;
+    font-size: 15px;
+    line-height: 18px;
   }
 }

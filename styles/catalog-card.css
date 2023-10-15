@@ -1,16 +1,22 @@
 .catalog_card_bg {
   width: 100%;
   background-color: #fff;
-  padding: 50px 0;
+  padding: 15px 0 103px;
 }
 .catalog_card {
   display: flex;
   flex-direction: row !important;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 30px;
+  margin-top: 72px;
+}
+.catalog_btns_768{
+  display: none;
 }
 .catalog_left {
-  width: 49% !important;
+  width: 100%;
+  max-width: 895px;
   overflow: hidden !important;
 }
 .swiper {
@@ -34,14 +40,14 @@
   aspect-ratio: 1/1;
 }
 .mySwiper {
-  height: 150px;
+  height: 123px;
   box-sizing: border-box;
-  padding: 10px 0;
-  margin-top: 30px;
+  margin-top: 24px;
 }
 .mySwiper .swiper-slide {
   height: 100px !important;
   aspect-ratio: 1/1 !important;
+  max-width: 123px;
   opacity: 0.4;
 }
 .mySwiper .swiper-slide-thumb-active {
@@ -57,7 +63,6 @@
 .swiper-slide-active {
   width: 100%;
   aspect-ratio: 1/1;
-  margin-bottom: 20px;
 }
 .next_btn {
   position: absolute;
@@ -102,7 +107,8 @@
   cursor: pointer;
 }
 .catalog_right {
-  width: 49% !important;
+  width: 100%;
+  max-width: 887px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -115,7 +121,7 @@
   right: 0;
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 25px;
   align-items: center;
 }
 .curtom_btns i {
@@ -141,13 +147,14 @@
   color: #8e8e8d;
 }
 .catalog_items {
-  width: 66%;
+  width: 100%;
+  max-width: 586px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 10px;
-  margin: 30px 0 20px;
+  margin: 50px 0 25px;
 }
 .catalog_item {
   width: 100%;
@@ -174,10 +181,12 @@
   color: #1d1d1b;
 }
 .option {
-  width: 66%;
+  width:100%;
+  max-width: 586px;
   height: max-content;
   transition: 0.4s;
   overflow: hidden;
+  position: relative;
 }
 .option_hero {
   width: 100%;
@@ -191,14 +200,20 @@
   padding: 0 20px;
 }
 .option_value {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
   visibility: hidden;
   opacity: 0;
   transition: inherit;
   transform: translateY(-100%);
   background-color: #e7e7e7;
   padding: 0 20px 20px;
+  transition: 0.4S;
 }
 .option_value_visible {
+  position: static;
   transform: translateY(0);
   visibility: visible;
   opacity: 1;
@@ -225,18 +240,19 @@
   letter-spacing: 0em;
   text-align: left;
   color: #1d1d1b;
+  margin: 50px 0 20px;
 }
 .catalog_btns {
   display: flex;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 15px;
   align-items: center;
   width: 100%;
-  margin-top: 20px;
+  max-width: 583px;
 }
 .catalog_btns button {
   display: inline-block;
-  width: calc((100% - 20px) / 2);
+  width: calc((100% - 15px) / 2);
   height: 52px;
   border-radius: 10px;
   border: 1px solid #ff6d00;
@@ -268,14 +284,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 20px;
-  margin-top: 40px;
+  gap: 30px;
+  margin-top: 110px;
 }
 .catalog_info_btns {
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 30px;
   align-items: center;
 }
 .catalog_info_btns button {
